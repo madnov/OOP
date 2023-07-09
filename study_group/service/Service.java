@@ -11,7 +11,7 @@ public class Service {
         studyGroup = new StudyGroup();
     }
 
-    void addStudent(String name, int age) {
+    public void addStudent(String name, int age) {
         Student student = new Student(id++, name, age);
         studyGroup.addStudent(student);
     }
