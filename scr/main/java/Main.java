@@ -1,14 +1,11 @@
 package scr.main.java;
 
-import scr.main.java.weather_api.Connection;
+import scr.main.java.ui.ConsoleUI;
+import scr.main.java.ui.View;
 
 public class Main {
     public static void main(String[] args) {
-        Connection connection = new Connection();
-        try {
-            connection.getJson("new york");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        View view = new ConsoleUI();
+        view.start();
     }
 }
