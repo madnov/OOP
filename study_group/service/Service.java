@@ -1,7 +1,7 @@
 package study_group.service;
 
-import study_group.group.StudyGroup;
-import study_group.students.Student;
+import study_group.model.group.StudyGroup;
+import study_group.model.students.Student;
 
 public class Service {
     private long id;

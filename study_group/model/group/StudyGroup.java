@@ -1,12 +1,12 @@
-package study_group.group;
+package study_group.model.group;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import study_group.students.Student;
-import study_group.students.comparators.StudentComparatorByAge;
-import study_group.students.comparators.StudyComparatorByName;
+import study_group.model.students.Student;
+import study_group.model.students.comparators.StudentComparatorByAge;
+import study_group.model.students.comparators.StudyComparatorByName;
 
 public class StudyGroup implements Iterable<Student> {
     private List<Student> studentList;

@@ -1,8 +1,8 @@
-package study_group.students.comparators;
+package study_group.model.students.comparators;
 
 import java.util.Comparator;
 
-import study_group.students.Student;
+import study_group.model.students.Student;
 
 public class StudyComparatorByName implements Comparator<Student> {
 

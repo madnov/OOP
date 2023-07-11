@@ -1,4 +1,4 @@
-package study_group.students;
+package study_group.model.students;
 
 public class Student implements Comparable<Student> {
     private long id;
